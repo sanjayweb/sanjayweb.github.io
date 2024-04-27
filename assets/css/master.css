@@ -1298,7 +1298,6 @@ body {
     margin-bottom: 60px;
   }
   .memories .item img {
-    max-width: 100px;
     right: 50px;
     top: 35px;
     transform: translateY(0);
