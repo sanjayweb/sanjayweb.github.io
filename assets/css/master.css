@@ -1294,17 +1294,6 @@ body {
     padding: 50px;
   }
 
-  .memories .item i {
-    margin-bottom: 60px;
-  }
-  .memories .item img {
-    right: 50px;
-    top: 35px;
-    transform: translateY(0);
-  }
-  .memories .item {
-    padding: 50px;
-  }
   section.about-us{
     padding: 55px;
   }
