@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Podcast Management Dashboard
 
 Information
@@ -14,4 +13,3 @@ How to set up the code (if needed) : -
 4. finally need to repeat this div and as per requirement we can display the cards per page through pagination
    <!-- Podcasts Card Start-->
    <div class="podcast-card">
->>>>>>> 52d0811be8838a47ca85c378531f2368233e0425
