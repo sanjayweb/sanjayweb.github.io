@@ -44,19 +44,25 @@
             </div>
           </div>
           <div class="filter-area">
-            <form>              
-              <select name="" id="mostRecent">
-                <option value="">Most Recent</option>
-                <option value="24hours">24Hours Ago</option>
-                <option value="3days">3Days Ago </option>
-                <option value="5Days">5Days Ago </option>
-                <option value="1Week">1Week Ago </option>
-              </select>
-              <select name="sort" id="sort">
-                <option value="">Sort By</option>
-                <option value="Ascending">Ascending</option>
-                <option value="Descending">Descending </option>
-              </select>
+            <form>   
+              <div class="filterGroup">
+                <div class="sselect">
+                  <select name="" id="mostRecent">
+                    <option value="">Most Recent</option>
+                    <option value="24hours">24Hours Ago</option>
+                    <option value="3days">3Days Ago </option>
+                    <option value="5Days">5Days Ago </option>
+                    <option value="1Week">1Week Ago </option>
+                  </select>
+                </div>
+                <div class="sselect">
+                  <select name="sort" id="sort">
+                    <option value="">Sort By</option>
+                    <option value="Ascending">Ascending</option>
+                    <option value="Descending">Descending </option>
+                  </select>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -476,7 +482,6 @@
         <!-- Podcasts List Area End-->
 
         <div class="pagination">
-          <div class="container align-center">
           <ul>
             <li><a href=""><i class="fa-solid fa-angle-left"></i></a></li>
             <li class="active"><a href="">1</a></li>
@@ -486,7 +491,6 @@
             <li><a href="">10</a></li>
             <li><a href=""><i class="fa-solid fa-angle-right"></i></a></li>
           </ul>
-        </div>
         </div>
 
       </div>

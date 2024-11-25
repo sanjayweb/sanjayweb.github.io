@@ -1,12 +1,3 @@
-
-
-
-// Show Dropdown Options
-// function optionDropdown() {
-// 	var element = document.getElementById("optionItems");
-// 	element.classList.toggle("show");
-//  }
-
  $(document).ready(function () {
     $('.expander').click(function () {
         $(this).removeClass("show");

@@ -152,7 +152,8 @@ Search Filter Area
   font-family: "Lato", serif; font-weight: 500; height: 40px; width: 100%;}
 .podcast-management-dashboard .search-and-filter .search-area .search-container input[type=text]::placeholder{color: #000;}
 .podcast-management-dashboard .search-and-filter .search-area .search-container .search-submit-btn{position: absolute; right: 5px; top: 5px; padding: 8px; background: none; border: 0; cursor: pointer;}
-.podcast-management-dashboard .search-and-filter .filter-area select {background: #f9f9f9; padding: 10px 20px 10px 10px; border: 1px solid #cfcfcf; border-radius: 20px; margin-right: 15px; margin-top: 10px; width: 100%;}
+.podcast-management-dashboard .search-and-filter .filter-area .sselect {background: #f9f9f9; padding: 7px 20px 10px 10px; border: 1px solid #cfcfcf; border-radius: 20px; margin-right: 15px; margin-top: 10px; width: 100%; height: 40px; color: #000;}
+.podcast-management-dashboard .search-and-filter .filter-area .sselect select {background: #f9f9f9; width: 100%; color: #000; border: none; font-size:14px;}
 
 .podcast-management-dashboard .search-and-filter .filter-area{ display: block;}
 
@@ -229,7 +230,7 @@ Modal UI
 Pagination UI
 --------------------------------------------- 
 */
-.pagination{width: 100%; padding: 10px; }
+.pagination{width: 100%; padding: 10px 0; }
 .pagination ul{display: flex; justify-content: center;}
 .pagination ul li:first-child{border: 1px solid #c8ced5; color: #fff; background: #c8ced5; border-radius: 5px; width: 40px; height: 40px;}
 .pagination ul li:last-child{border: 1px solid #c8ced5; color: #fff; background: #fff; border-radius: 5px; width: 40px; height: 40px;}
@@ -256,8 +257,8 @@ responsive
   .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div p{font-size: 12px; line-height: 15px; text-align: left;}  
   .podcast-management-dashboard .search-and-filter{display: flex; justify-content: space-between;}
   .podcast-management-dashboard .search-and-filter .search-area,
-  .podcast-management-dashboard .search-and-filter .filter-area{ display: flex;}
-  .podcast-management-dashboard .search-and-filter .filter-area select { margin-left: 15px; width: auto; margin-right: 0; margin-top: 0;}
+  .podcast-management-dashboard .search-and-filter .filter-area .filterGroup{display: flex;}
+  .podcast-management-dashboard .search-and-filter .filter-area .sselect { margin-left: 15px; width: auto; margin-right: 0; margin-top: 0;}
   .modal .modal-dialog {position: absolute; background: #fff; max-width: 700px; min-width: 500px;}
 }
 @media (min-width: 768px) {
