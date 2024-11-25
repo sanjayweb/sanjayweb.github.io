@@ -229,7 +229,7 @@ Modal UI
 Pagination UI
 --------------------------------------------- 
 */
-.pagination{width: 100%; padding: 10px; }
+.pagination{width: 100%; padding: 10px 0; }
 .pagination ul{display: flex; justify-content: center;}
 .pagination ul li:first-child{border: 1px solid #c8ced5; color: #fff; background: #c8ced5; border-radius: 5px; width: 40px; height: 40px;}
 .pagination ul li:last-child{border: 1px solid #c8ced5; color: #fff; background: #fff; border-radius: 5px; width: 40px; height: 40px;}
