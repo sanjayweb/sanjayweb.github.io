@@ -153,7 +153,7 @@ Search Filter Area
 .podcast-management-dashboard .search-and-filter .search-area .search-container input[type=text]::placeholder{color: #000;}
 .podcast-management-dashboard .search-and-filter .search-area .search-container .search-submit-btn{position: absolute; right: 5px; top: 5px; padding: 8px; background: none; border: 0; cursor: pointer;}
 .podcast-management-dashboard .search-and-filter .filter-area .sselect {background: #f9f9f9; padding: 7px 20px 10px 10px; border: 1px solid #cfcfcf; border-radius: 20px; margin-right: 15px; margin-top: 10px; width: 100%; height: 40px; color: #000;}
-.podcast-management-dashboard .search-and-filter .filter-area .sselect select {background: #f9f9f9; width: 100%; color: #000; border: none;}
+.podcast-management-dashboard .search-and-filter .filter-area .sselect select {background: #f9f9f9; width: 100%; color: #000; border: none; font-size:14px;}
 
 .podcast-management-dashboard .search-and-filter .filter-area{ display: block;}
 
