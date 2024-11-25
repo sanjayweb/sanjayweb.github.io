@@ -152,7 +152,7 @@ Search Filter Area
   font-family: "Lato", serif; font-weight: 500; height: 40px; width: 100%;}
 .podcast-management-dashboard .search-and-filter .search-area .search-container input[type=text]::placeholder{color: #000;}
 .podcast-management-dashboard .search-and-filter .search-area .search-container .search-submit-btn{position: absolute; right: 5px; top: 5px; padding: 8px; background: none; border: 0; cursor: pointer;}
-.podcast-management-dashboard .search-and-filter .filter-area select {background: #f9f9f9; padding: 10px 20px 10px 10px; border: 1px solid #cfcfcf; border-radius: 20px; margin-right: 15px; margin-top: 10px; width: 100%; height: 40px; color: #000;}
+.podcast-management-dashboard .search-and-filter .filter-area select {background: #f9f9f9; padding: 10px 20px 10px 10px !important; border: 1px solid #cfcfcf; border-radius: 20px; margin-right: 15px; margin-top: 10px; width: 100%; height: 40px; color: #000;}
 
 .podcast-management-dashboard .search-and-filter .filter-area{ display: block;}
 
