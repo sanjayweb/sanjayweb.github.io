@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>:: Podcast Management Dashboard ::</title>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/master.css">
+
+  </head>
+
+  <body>
+  <section class="podcast-management-dashboard">
+    <!-- Label Header Area Start-->
+    <header>
+      <div class="label-header">
+        <div class="container">
+          <h1>Top Podcast Channels</h1>
+        </div>
+      </div>
+    </header>
+    <!-- Label Header Area End-->
+         
+    <main>
+      <div class="container">
+
+        <!-- Search Filter Area Start-->
+        <div class="search-and-filter">
+          <div class="search-area">            
+            <div class="search-container">
+              <form action="">
+                <input type="text" placeholder="Search Podcasts.." name="search">
+                <button type="submit" class="search-submit-btn"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+          <div class="filter-area">
+            <form>              
+              <select name="" id="mostRecent">
+                <option value="">Most Recent</option>
+                <option value="24hours">24Hours Ago</option>
+                <option value="3days">3Days Ago </option>
+                <option value="5Days">5Days Ago </option>
+                <option value="1Week">1Week Ago </option>
+              </select>
+              <select name="sort" id="sort">
+                <option value="">Sort By</option>
+                <option value="Ascending">Ascending</option>
+                <option value="Descending">Descending </option>
+              </select>
+            </form>
+          </div>
+        </div>
+        <!-- Search Filter Area End-->
+
+        <!-- Podcasts List Area Start-->
+        <div class="podcast-list-area">
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-1.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-2.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-1.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-2.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-1.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-2.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-1.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-2.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-1.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-2.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-1.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->
+
+
+          <!-- Podcasts Card Start-->
+          <div class="podcast-card">
+            <div class="podcast-img">
+              <img src="assets/images/podcast-2.jpg">
+              <div class="dropdown-container">
+                <button class="expander"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <ul class="dropdown-option optionItems">
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-1"><i class="fa-regular fa-pen-to-square"></i> Edit Podcast Details</a></li>
+                  <li><a class="dropdown-item open-modal" href="#" data-dialog="modal-2"><i class="fa-regular fa-trash-can"></i> Delete Podcast</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="podcast-details">
+              <div class="podcast-icon-title">
+                <div class="podcast-icon"><i class="fa-solid fa-podcast"></i></div>
+                <div class="podcast-title"><h3><a href="javascript:void();"> Unveiling the Untold: A Journey Through History</a></h3></div>
+              </div>
+              <div class="date-episode">
+                <div><p><i class="fa-regular fa-calendar"></i> November 22, 2024</p></div>
+                <div><p><a href="javascript:void();"><i class="fa-solid fa-film"></i> 3k+ Episodes</a></p></div>
+              </div>
+            </div>            
+            <div class="podcast-listening-stats">
+              <ul>
+                <li><h4>1k+</h4><p>Total<br>Listens</p></li>
+                <li><h4>130</h4><p>Unique<br>Listeners</p></li>
+                <li><h4>90</h4><p>Listener<br>Trends</p></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Podcasts Card End-->         
+
+
+        </div>
+        <!-- Podcasts List Area End-->
+
+        <div class="pagination">
+          <div class="container align-center">
+          <ul>
+            <li><a href=""><i class="fa-solid fa-angle-left"></i></a></li>
+            <li class="active"><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href=""><i class="fa-solid fa-ellipsis"></i></a></li>
+            <li><a href="">9</a></li>
+            <li><a href="">10</a></li>
+            <li><a href=""><i class="fa-solid fa-angle-right"></i></a></li>
+          </ul>
+        </div>
+        </div>
+
+      </div>
+    </main>
+    
+  </section>
+
+<!-- Edit Podcast Details Modal Start -->
+  <div id="modal-1" role="dialog" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Edit Podcast Details</h3>
+        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">        
+        <form action="/">
+          <div class="form-row">
+            <label for="fname">Title</label><br>
+            <input type="text" id="fname" name="fname" required>
+          </div>
+          <div class="form-row">
+            <label for="desription">Desription</label><br>
+            <textarea class="form-control" id="desription" rows="3" ></textarea>
+          </div>
+          <div class="form-row">
+            <label for="coverImg">Cover Image</label><br>
+            <input class="form-control form-control-lg" id="coverImg" type="file">
+          </div>
+          <div class="form-row-submit">
+            <input type="submit" value="Update" class="fill-button">
+          </div>
+        </form> 
+      </div>
+    </div>
+  </div>
+<!-- Edit Podcast Details Modal End -->
+
+
+<!-- Confirmation Modal Start -->
+<div id="modal-2" role="dialog" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="modal-body align-center">
+      
+      <h2>Are you Sure ?</h2>
+
+      <div class="mtop30 ">
+        <p>Are you sure you want to delete this item?<br> This action can not be undone.</p>
+      </div>
+
+      <div class="mtop30 mbottom30">
+        <button class="fill-button">Delete</button>
+        <button class="outline-button modal-close">Cancel</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- Confirmation Modal End -->
+
+
+  <!-- Jquery Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- Custom Scripts -->
+  <script src="assets/js/custom.js"></script>
+    
+  </body>
+</html>

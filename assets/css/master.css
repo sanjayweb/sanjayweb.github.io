@@ -1,0 +1,286 @@
+/* 
+---------------------------------------------
+font & reset css
+--------------------------------------------- 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, nav, section, article, aside, footer, hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #212741;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #212741;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+global styles
+--------------------------------------------- 
+*/
+html,
+body {
+  background: #fff;
+  font-family: "Open Sans", serif;
+}
+
+::selection {
+  background: #6e1b42;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #6e1b42;
+  color: #fff;
+}
+
+.align-center{text-align: center;}
+
+.podcast-management-dashboard .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.dropdown-option.show{
+  display: block !important;
+}
+
+.fill-button{background: #6e1b42; color: #fff; padding: 10px 30px; border: 1px solid #cfcfcf; border-radius: 20px; font-size: 16px; cursor: pointer;}
+.outline-button{color: #9b9b9b; padding: 10px 30px; border: 1px solid #cfcfcf; border-radius: 20px; font-size: 16px; background: none; margin-top: 10px; cursor: pointer;}
+.mtop30{margin-top: 30px;}
+.mbottom30{margin-bottom: 30px;}
+/* 
+---------------------------------------------
+Label Header
+--------------------------------------------- 
+*/
+
+.podcast-management-dashboard .label-header{
+  background: #f5f5f5;
+  padding: 25px 0;
+}
+
+.podcast-management-dashboard .label-header h1{
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  color: #000;
+}
+
+/* 
+---------------------------------------------
+Search Filter Area
+--------------------------------------------- 
+*/
+
+.podcast-management-dashboard .search-and-filter{display: block; margin: 30px 0 15px; }
+.podcast-management-dashboard .search-and-filter .search-area{ display: block;}
+.podcast-management-dashboard .search-and-filter .search-area .search-container{position: relative;}
+.podcast-management-dashboard .search-and-filter .search-area .search-container input[type=text] {padding: 6px 20px; font-size: 14px; border: 1px solid #cfcfcf; border-radius: 20px;
+  font-family: "Lato", serif; font-weight: 500; height: 40px; width: 100%;}
+.podcast-management-dashboard .search-and-filter .search-area .search-container input[type=text]::placeholder{color: #000;}
+.podcast-management-dashboard .search-and-filter .search-area .search-container .search-submit-btn{position: absolute; right: 5px; top: 5px; padding: 8px; background: none; border: 0; cursor: pointer;}
+.podcast-management-dashboard .search-and-filter .filter-area select {background: #f9f9f9; padding: 10px 20px 10px 10px; border: 1px solid #cfcfcf; border-radius: 20px; margin-right: 15px; margin-top: 10px; width: 100%;}
+
+.podcast-management-dashboard .search-and-filter .filter-area{ display: block;}
+
+
+
+
+/* 
+---------------------------------------------
+Podcasts Card List Area
+--------------------------------------------- 
+*/
+.podcast-management-dashboard .podcast-list-area{display: flex; justify-content: space-between; margin: 0 -5px 15px; flex-wrap:wrap}
+.podcast-management-dashboard .podcast-list-area .podcast-card{width: 100%; margin:15px 0 0; border: 1px solid #cfcfcf; border-radius: 10px; overflow: hidden; flex: 0 0 auto;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img{width: 100%; height: 225px; max-height: 225px; overflow: hidden; position: relative;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img img{object-fit: cover; width: 100%; height: 225px;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container{position: absolute; right: 10px; top: 10px; border-radius: 100%; width: 25px; height: 25px;
+  background: #fff; cursor: pointer; border-bottom: 1px solid #d1d1d1;} 
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container button{background: none; border: none; cursor: pointer; width: 100%; text-align: center;} 
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container .dropdown-option{background: #fff; border: 1px solid #d1d1d1; min-width: 160px; position: absolute; right: 0; top: 25px; border-radius: 10px; display: none;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container .dropdown-option .dropdown-item{padding: 13px; font-family: "Lato", serif; font-weight: 500;
+  font-style: normal; font-size: 12px; color: #000; text-align: left; display: block; }
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container .dropdown-option li{border-bottom: 1px solid #d1d1d1;}  
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container .dropdown-option li:last-child{border-bottom:none;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-img .dropdown-container .dropdown-option .dropdown-item i{margin-right: 5px;}
+
+
+
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details{width: 100%; min-height: 130px; max-height: 130px; padding: 20px; }
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .podcast-icon-title{display: flex; justify-content:flex-start;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .podcast-icon{width: auto; margin-top: 3px; margin-right: 5px;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .podcast-icon-title .podcast-title h3 a{width: auto; overflow: hidden; text-overflow: ellipsis; 
+  display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; font-size: 18px; color: #000;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .podcast-icon-title .podcast-title h3 a:hover{color: #6e1b42;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode{display: flex; justify-content: space-between; margin-top: 15px;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div{text-align: center; font-family: "Open Sans", serif;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div i{color: #ea5e45;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div p{font-size: 12px; line-height: 13px; color: #545860;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div p a{font-size: 12px; line-height: 13px; color: #545860;}
+
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-listening-stats{width: 100%; height: 85px; background: #6e1b42; padding: 15px 0; }
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-listening-stats ul{display: flex; justify-content: space-between;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-listening-stats ul li{width: 33.33%; text-align: center; font-family: "Open Sans", serif; color: #545860;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-listening-stats ul li h4{color: #fff; width: 100%; font-size: 24px; font-weight: 500; line-height: 25px;}
+.podcast-management-dashboard .podcast-list-area .podcast-card .podcast-listening-stats ul li p{color: #fff; width: 100%; font-size: 14px; line-height: 15px;}
+
+/* 
+---------------------------------------------
+Modal UI
+--------------------------------------------- 
+*/
+
+.modal {opacity: 0; visibility: hidden; background: rgba(0,0,0,.6); top: 0; left: 0; right: 0; bottom: 0; height: 100%; width: 100%; position: fixed; z-index: 100; transition: opacity ease-out 0.2s;}
+.modal--active{opacity: 1; visibility: visible;}
+.modal .modal-dialog {position: absolute; background: #fff; max-width: 90%; min-width: 90%; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 10px; box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, .2);}
+.modal .modal-dialog .modal-header{ display: flex; justify-content: space-between; padding: 35px 35px 15px 35px;}
+.modal .modal-dialog .modal-header h3{ font-family: "Lato", serif; font-weight: 700; font-style: normal; font-size: 24px;}
+.modal .modal-dialog .modal-header .modal-close{font-size: 24px; cursor: pointer; color: #959595; background: none; border: none; position: absolute; top: 15px; right: 15px;}
+.modal .modal-dialog .modal-header .modal-close:hover{color: #000;}
+.modal .modal-dialog .modal-body{ padding: 15px 35px 35px 35px;}
+
+.form-row{width: 100%; padding: 10px 0;}
+.form-row label{font-family: "Open Sans", serif; color: #545860; font-size: 12px;}
+.form-row input[type=text],
+.form-row textarea {padding: 8px 20px; font-size: 14px; border: 1px solid #cfcfcf; border-radius: 10px; font-family: "Lato", serif; font-weight: 500;  width: 100%; margin-top: 10px; resize: none;}
+
+.form-row input[type="file"]::file-selector-button{ color: #9b9b9b; padding: 10px 30px; border: 1px solid #cfcfcf; border-radius: 10px; font-size: 16px; background: none; margin-top: 10px;}
+.form-row .form-button{background: #6e1b42; color: #fff; padding: 10px 30px; border: 1px solid #cfcfcf; border-radius: 20px; font-size: 16px;}
+.form-row-submit {padding: 10px 0 0; text-align: right;}
+
+
+
+/* 
+---------------------------------------------
+Pagination UI
+--------------------------------------------- 
+*/
+.pagination{width: 100%; padding: 10px; }
+.pagination ul{display: flex; justify-content: center;}
+.pagination ul li:first-child{border: 1px solid #c8ced5; color: #fff; background: #c8ced5; border-radius: 5px; width: 40px; height: 40px;}
+.pagination ul li:last-child{border: 1px solid #c8ced5; color: #fff; background: #fff; border-radius: 5px; width: 40px; height: 40px;}
+.pagination ul li:first-child a{color: #fff; }
+.pagination ul li:last-child a{color: #c8ced5; }
+.pagination ul li:first-child li:hover,
+.pagination ul li:last-child li:hover{border: 0; }
+.pagination ul li{border: 1px solid #c8ced5; color: #212b36; border-radius: 5px; width: 40px; height: 40px; margin: 5px; display: flex; justify-content: center; align-items: center; cursor: pointer;}
+.pagination ul li a{color: #212b36;}
+.pagination ul li:hover{border: 1px solid #6e1b42; color: #fff;border-radius: 5px; width: 40px; height: 40px;}
+.pagination ul li.active{border: 1px solid #6e1b42;}
+.pagination ul li.active a{color: #6e1b42;}
+
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+@media (min-width: 576px) {
+  .podcast-management-dashboard .podcast-list-area .podcast-card{ width : 48%; margin:15px 5px 0;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode{display: block; justify-content:start; margin-top: 10px; width: 100%;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div{margin-top: 5px;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div p{font-size: 12px; line-height: 15px; text-align: left;}  
+  .podcast-management-dashboard .search-and-filter{display: flex; justify-content: space-between;}
+  .podcast-management-dashboard .search-and-filter .search-area,
+  .podcast-management-dashboard .search-and-filter .filter-area{ display: flex;}
+  .podcast-management-dashboard .search-and-filter .filter-area select { margin-left: 15px; width: auto; margin-right: 0; margin-top: 0;}
+  .modal .modal-dialog {position: absolute; background: #fff; max-width: 700px; min-width: 500px;}
+}
+@media (min-width: 768px) {
+  .podcast-management-dashboard .podcast-list-area .podcast-card{ width : 31%;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode{display: flex; justify-content: space-between; margin-top: 15px;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div{text-align: center; font-family: "Open Sans", serif;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div i{color: #ea5e45;}
+  .podcast-management-dashboard .podcast-list-area .podcast-card .podcast-details .date-episode div p{font-size: 12px; line-height: 13px; color: #545860;}
+} 
+
+/* @media (min-width: 992px) {
+  .podcast-management-dashboard .podcast-list-area .podcast-card{ width : 32%;}
+} */
+
+@media (min-width: 1200px) {
+  .podcast-management-dashboard .podcast-list-area .podcast-card{ width : 32%;}
+}
+
+@media (min-width: 1400px){
+  .podcast-management-dashboard .podcast-list-area .podcast-card{ width : 24%;}
+}
+
+
+
+
+
