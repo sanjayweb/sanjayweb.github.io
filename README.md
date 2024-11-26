@@ -7,9 +7,9 @@ This HTML conversion is fully custom code, I didn't use any Bootstrap or other 
 
 How to set up the code (if needed) : -
 
-1. Please "<section class="podcast-management-dashboard">" add from this line to the end of the page.
+1. Please section class="podcast-management-dashboard" add from this line to the end of the page.
 2. Please Import master.css and custom.js
 3. add font awesome  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css cdn link.
 4. finally need to repeat this div and as per requirement we can display the cards per page through pagination
    <!-- Podcasts Card Start-->
-   "<div class="podcast-card">"
+   div class="podcast-card"
